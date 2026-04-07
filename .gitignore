@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Xcode build output
+DerivedData/
+build/
+
+# Swift Package Manager / Swift Playgrounds artifacts
+.build/
+.swiftpm/xcode/xcuserdata/
+.swiftpm/configuration/
+Packages/
+
+# Logs and temporary artifacts
+*.log
+*.tmp
+*.swp
+
+# Coverage / profiling artifacts
+*.profdata
+*.gcno
+*.gcda
+*.xccovreport
+*.xccovarchive
+
+# Fastlane (optional, future-proof)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
